@@ -266,21 +266,21 @@ textarea{resize:vertical;min-height:100px;line-height:1.6}
       <div class="row two">
         <div>
           <label>Your name<span class="req">*</span></label>
-          <input type="text" name="teacherName" required placeholder="Full name"/>
+          <input type="text" name="teacherName" placeholder="Full name"/>
         </div>
         <div>
           <label>Contact number<span class="req">*</span></label>
-          <input type="tel" name="teacherPhone" required placeholder="With country code"/>
+          <input type="tel" name="teacherPhone" placeholder="With country code"/>
         </div>
       </div>
       <div class="row two">
         <div>
           <label>Email<span class="req">*</span></label>
-          <input type="email" name="teacherEmail" required placeholder="you@example.com"/>
+          <input type="email" name="teacherEmail" placeholder="you@example.com"/>
         </div>
         <div>
           <label>Where are you based<span class="req">*</span></label>
-          <input type="text" name="teacherCity" required placeholder="City, country"/>
+          <input type="text" name="teacherCity" placeholder="City, country"/>
         </div>
       </div>
     </div>
@@ -294,33 +294,33 @@ textarea{resize:vertical;min-height:100px;line-height:1.6}
     <div class="card student">
       <div class="row two">
         <div><label>Student's name<span class="req">*</span></label>
-          <input type="text" name="s1Name" required placeholder="Full name"/></div>
+          <input type="text" name="s1Name" placeholder="Full name"/></div>
         <div><label>Age<span class="req">*</span></label>
-          <input type="number" name="s1Age" required min="5" max="99" placeholder="Years"/></div>
+          <input type="number" name="s1Age" min="5" max="99" placeholder="Years"/></div>
       </div>
       <div class="row two">
         <div><label>Their contact number<span class="req">*</span></label>
-          <input type="tel" name="s1Phone" required placeholder="Or a parent's number"/></div>
+          <input type="tel" name="s1Phone" placeholder="Or a parent's number"/></div>
         <div><label>City in West Bengal<span class="req">*</span></label>
-          <input type="text" name="s1City" required placeholder="Kolkata, Howrah, Siliguri&hellip;"/></div>
+          <input type="text" name="s1City" placeholder="Kolkata, Howrah, Siliguri&hellip;"/></div>
       </div>
       <div class="row two">
         <div><label>Course<span class="req">*</span></label>
-          <select name="s1Course" required>
+          <select name="s1Course">
             <option value="">Select course</option>
             <option>PFM South</option><option>PFM North</option>
             <option>Hindustani Classical</option><option>Carnatic Classical</option>
             <option>Western Vocals</option>
           </select></div>
         <div><label>Level<span class="req">*</span></label>
-          <select name="s1Level" required>
+          <select name="s1Level">
             <option value="">Select level</option>
             <option>Intermediate</option><option>Proficient</option><option>Advanced</option>
           </select></div>
       </div>
       <div class="row">
         <div><label>Why this student<span class="req">*</span></label>
-          <textarea name="s1Why" required maxlength="600" placeholder="Tell us honestly. What have you noticed in this student that we'd never see from a form?"></textarea>
+          <textarea name="s1Why" maxlength="600" placeholder="Tell us honestly. What have you noticed in this student that we'd never see from a form?"></textarea>
           <div class="count"><span id="c1">0</span> / 600</div></div>
       </div>
       <div class="row">
@@ -385,7 +385,7 @@ textarea{resize:vertical;min-height:100px;line-height:1.6}
     </div>
 
     <div class="decl">
-      <input type="checkbox" id="decl" required/>
+      <input type="checkbox" id="decl"/>
       <span>I've only put down students I'd genuinely back on a live stage. I've checked they're based in West Bengal and free in September.</span>
     </div>
 
